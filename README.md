@@ -1,5 +1,5 @@
 # [AAAI 2024] Occluded Person Re-identification via Saliency-Guided Patch Transfer
-The official repository for Occluded Person Re-identification via Saliency-Guided Patch Transfer [[pdf]]([https://arxiv.org/pdf/2411.01225](https://ojs.aaai.org/index.php/AAAI/article/view/28312))
+The official repository for Occluded Person Re-identification via Saliency-Guided Patch Transfer [[pdf]](https://ojs.aaai.org/index.php/AAAI/article/view/28312)
 
 ### Prepare Datasets
 
