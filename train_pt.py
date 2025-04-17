@@ -66,7 +66,7 @@ if __name__ == '__main__':
     train_loader, train_loader_normal, val_loader, num_query, num_classes, camera_num, view_num = make_dataloader(cfg)
 
     model = make_model(cfg, MASK_MODEL=True, num_class=num_classes, camera_num=camera_num, view_num = view_num)
-    model.load_param(cfg.TEST.WEIGHT)
+    
     loss_func, center_criterion = make_loss(cfg, num_classes=num_classes)
 
     optimizer, optimizer_center = make_optimizer(cfg, model, center_criterion)
